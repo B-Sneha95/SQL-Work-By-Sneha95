@@ -1,54 +1,21 @@
-# SQL-Work-By-Sneha95
-A comprehensive SQL project using the classic Employees sample database. Includes database dump and practice queries covering SQL basics, joins, subqueries, window functions, and advanced analytics.
+📊 SQL Project Work
 
-SQL Project – Employees Database Analysis
+A comprehensive SQL project using the classic Employees sample database.
+This repository contains multiple SQL practice scripts and examples ranging from basics to advanced concepts, making it ideal for learning, interview preparation, and portfolio showcase.
 
-Project Overview:
+🚀 Features
 
-This project is based on the classic Employees sample database.
-It demonstrates my ability to:
+✅ Covers SQL basics (SELECT, WHERE, GROUP BY, etc.)
 
-Write SQL queries for real-world business scenarios
+✅ Advanced Window Functions (RANK, DENSE_RANK, LEAD, LAG)
 
-Work with aggregate functions, CTEs, subqueries, and joins
+✅ Common Table Expressions (CTEs) and Nested CTEs
 
-Perform data analysis using structured queries
+✅ Temporary Tables for intermediate calculations
 
-Organize projects in a clean, professional way for GitHub
+✅ Queries designed with real interview-style problems
 
-The project includes database schema, sample data, and SQL queries for analysis.
-
-
-📊 Key Queries Implemented
-
-Some examples of queries included:
-
-Highest salary of each male employee
-
-Female salaries below company average
-
-Department-wise salary statistics (MIN, MAX, AVG)
-
-Contracts signed after a specific date
-
-Using CTEs vs Subqueries
-
-📥 Full Dataset
-
-Since the complete database dump is larger than GitHub’s 25MB file size limit, I have uploaded it to Google Drive.
-
-👉 Download Full Database Dump (https://drive.google.com/file/d/1ngBGDYTbHyjaqiFks_IObf93zFKj75pS/view?usp=sharing)
-
-
-🚀 How to Use
-
-Download the full dataset from the link above.
-
-Import it into MySQL Workbench using the Data Import option.
-
-Run queries from analysis_queries.sql.
-
-Explore schema in create_tables.sql and add your own queries.
+✅ Organized scripts for easy practice & reference
 
 🛠️ Tech Stack
 
@@ -56,12 +23,70 @@ MySQL Workbench
 
 SQL (Basics,DDL, DML,Constraints,Joins, Aggregations, Stored Procedures,Triggers,CTEs, Window Functions,Temporary Table)
 
-📌 Author
+📂 Repository Contents
+🔹 SQL Scripts
 
-👩‍💻 Sneha Busi
+sql_basics.sql
+ → Basic queries (SELECT, WHERE, GROUP BY, HAVING, etc.)
 
-🌐https://github.com/B-Sneha95
+aggre_window1.sql
+ → Aggregate and window functions (SUM, AVG, RANK, DENSE_RANK)
 
-📧 Contact: bsneha1631@gmail.com
+lead&lag.sql
+ → Lead and Lag functions for comparing row values
 
-✨ This project highlights my SQL skills and is part of my portfolio showcasing work in data analytics and database management.
+CTE.sql
+ → Common Table Expressions for simplifying complex queries
+
+nested_cte.sql
+ → Advanced queries using multiple CTEs
+
+Temporarytbl.sql
+ → Using temporary tables for intermediate results
+
+🛠️ How to Use
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/SQL-Work-By-Sneha95.git
+
+Open .sql files in MySQL Workbench (or any SQL IDE).
+
+Run queries against the Employees Database.
+
+Explore and modify queries for practice.
+
+📂 Dataset
+
+The full dataset (Employees DB) is large, so I’ve provided it via Google Drive:
+👉 Download Dataset Here
+https://drive.google.com/file/d/1ngBGDYTbHyjaqiFks_IObf93zFKj75pS/view?usp=sharing
+
+
+🎯 Learning Outcomes
+
+By going through this repo, you will learn:
+
+Writing efficient SQL queries
+
+Solving real-world data problems
+
+Using CTEs, window functions, and temp tables in practice
+
+Interview-style SQL problem solving
+
+👩‍💻 Author
+
+Sneha Busi
+📧 bsneh1631@gmail.com
+
+🌐 GitHub Profile
+💼https://github.com/B-Sneha95
+
+✨ If you find this repo helpful, don’t forget to ⭐ star it!
+
+
+
+
+
+
